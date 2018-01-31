@@ -1,0 +1,28 @@
+{
+	"name": "BaiduNaoTU",
+	"version": "0.1.0",
+	"main": "main.js",
+	"author": "xlight",
+	"description": "百度脑图离线版",
+	"homepage": "https://github.com/jgraph/draw.io",
+	"scripts": {
+		"pack": "electron-builder --dir",
+		"dist": "electron-builder"
+	},
+	"build": {
+		"appId": "com.baidu.naotu.offline",
+		"copyright": "Xlight",
+		"productName": "BaiduNaoTU",
+		"artifactName": "${productName}-${arch}-${version}.${ext}",
+		"asar": true,
+		"electronVersion": "1.7.11",
+		"linux": {
+			"icon": "icon.png",
+			"category": "Graphics",
+			"maintainer": "",
+			"target": [
+				"appImage"
+			]
+		}
+	}
+}
