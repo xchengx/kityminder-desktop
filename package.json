@@ -4,7 +4,7 @@
 	"main": "main.js",
 	"author": "xlight",
 	"description": "百度脑图离线版",
-	"homepage": "https://github.com/jgraph/draw.io",
+	"homepage": "https://github.com/xchengx/kityminder-desktop",
 	"scripts": {
 		"pack": "electron-builder --dir",
 		"dist": "electron-builder"
